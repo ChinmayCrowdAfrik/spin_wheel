@@ -22,7 +22,7 @@ function Wheel() {
     }
   },[])
 
-  const finalResult = data.length > 1;
+  const finalResult = data.length > 5;
 
   const fetchTargetNumber = async () => {
     let data = await fetch('http://localhost:5000/get-result');
